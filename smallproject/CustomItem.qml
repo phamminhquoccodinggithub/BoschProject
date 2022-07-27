@@ -14,7 +14,7 @@ Item {
             width: 70
             height: 64
             y: 200
-            x: 50
+            x: 50            
             onClicked:{
                 stackView.pop()
                 screenController.setTitle("")

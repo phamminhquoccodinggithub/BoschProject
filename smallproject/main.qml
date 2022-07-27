@@ -8,19 +8,19 @@ Window {
     height: 400
     visible: true
     title: qsTr("Bosch Premium")    
-    Item{
+
+    StackView {
+        id: stackView
+        anchors.fill: parent
+        initialItem: "WelcomeScreen.qml"
         focus: true
         Keys.onPressed: (event)=> {
             if (event.key === Qt.Key_F1) {
                 stackView.pop(null)
                 screenController.setTitle("")
+                event.accepted = true;
             }
         }
-    }
-    StackView {
-        id: stackView
-        anchors.fill: parent
-        initialItem: "WelcomeScreen.qml"
     }
 
     ScreenController {
