@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>UI/mainmenu.png</file>
+        <file>WelcomeScreen.qml</file>
+        <file>MenuScreen.qml</file>
+        <file>CustomItem.qml</file>
+        <file>StatusBar.qml</file>
+        <file>UI/wifi.png</file>
+        <file>UI/lock.png</file>
+        <file>UI/more.png</file>
+        <file>UI/food1.jpg</file>
+        <file>UI/food2.jpg</file>
+        <file>UI/food3.jpg</file>
+        <file>UI/food4.jpg</file>
+        <file>UI/food5.jpg</file>
+        <file>UI/food6.jpg</file>
+        <file>UI/setting.png</file>
+        <file>UI/back.png</file>
+        <file>Program2.qml</file>
+        <file>Program1.qml</file>
+        <file>Program3.qml</file>
+        <file>Program4.qml</file>
+        <file>Program5.qml</file>
+        <file>Program6.qml</file>
+        <file>PopUpWindow.qml</file>
+        <file>UI/exit.png</file>
+        <file>UI/no_wifi.png</file>
+    </qresource>
+</RCC>
