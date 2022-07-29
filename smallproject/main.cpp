@@ -9,7 +9,7 @@ int main(int argc, char *argv[])
 #endif
     QGuiApplication app(argc, argv);
     qmlRegisterType <ScreenController> ("BoschPremium",1,0,"ScreenController");
-    qmlRegisterSingletonType( QUrl("qrc:/StatusBarConf.qml"), "HeaderLine", 1, 0, "StatusBarConf" );
+    qmlRegisterSingletonType( QUrl("qrc:/StatusBarConf.qml"), "HeaderLine", 1, 0, "StatusBarConf" );  
     QQmlApplicationEngine engine;
     const QUrl url(QStringLiteral("qrc:/main.qml"));
     QObject::connect(&engine, &QQmlApplicationEngine::objectCreated,

@@ -40,5 +40,5 @@ Window {
             color: "white"
             font.pixelSize: 27
         }
-    }
+    }  
 }
