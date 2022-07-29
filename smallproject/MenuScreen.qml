@@ -40,7 +40,8 @@ Item {
                           src: "qrc:/UI/food6.jpg"}
             ListElement { name : "Basic settings"
                           sub: ""
-                          src: "qrc:/UI/setting.png"}
+                          src: "qrc:/UI/setting.png"
+                          prog: "qrc:/Program7.qml"}
         }
         delegate: Rectangle {
             width: listView.width

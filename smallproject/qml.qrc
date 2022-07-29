@@ -26,5 +26,7 @@
         <file>PopUpWindow.qml</file>
         <file>UI/exit.png</file>
         <file>UI/no_wifi.png</file>
+        <file>Program7.qml</file>
+        <file>StatusBarConf.qml</file>
     </qresource>
 </RCC>
